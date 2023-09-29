@@ -1,0 +1,121 @@
+
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+    transition: ease-in-out 0.2s;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+img {
+    height: 130px;
+    
+}
+
+body {
+    background-color: rgb(197, 87, 252);
+}
+
+#placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(149, 63, 229);
+    padding: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+
+#titulo {
+    font: 700 25px sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btitulo {
+    border-bottom: 1px dashed black;
+    margin-top: 30px;
+}
+
+#linha {
+    border-top: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+#mensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700 20px sans-serif;
+    margin-top: 20px;
+    background-color: rgb(149, 63, 229);
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 30px;
+}
+
+
+#versus {
+    font: 400 25px sans-serif;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#jogadorNome {
+    font: 400 25px sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#computadorNome {
+    font: 400 25px sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#jogadorPontos {
+    font: 400 25px sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#computadorPontos {
+    font: 400 25px sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#jogadorEscolha, #computadorEscolha {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
